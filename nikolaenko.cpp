@@ -25,6 +25,6 @@ int main() {
         cout << "Root 1 = (-" << b << " + i" << sqrt(-discriminant) << ") / " << 2*a << endl;
         cout << "Root 2 = (-" << b << " - i" << sqrt(-discriminant) << ") / " << 2*a << endl;
     }
-
+/*Check 2nd commit to my own branch Nikolaenko*/
     return 0;
 }
