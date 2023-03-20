@@ -25,4 +25,4 @@ int main() {
     cout << "Maximum element: " << max << endl;
 
     return 0;
-}
+} // commit branch 2
