@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int arr[100];
-    int n, min, max;
+    int n, min, max;//переменные
     cout << "Enter the size of the array: ";
     cin >> n;
 
