@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+// first commit in main (zhykova)
+
+// second commit in main (zhykova)
+
 void selectionSort(int arr[], int size) {
     int minIndex;
 
