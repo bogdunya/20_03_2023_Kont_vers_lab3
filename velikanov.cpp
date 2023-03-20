@@ -25,4 +25,5 @@ int main() {
     (result == -1) ? cout << "Element is not present in array"
                    : cout << "Element is present at index " << result;
     return 0;
+    // main commit 2
 }
