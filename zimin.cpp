@@ -2,7 +2,7 @@
 using namespace std;
 
 // Функция для конвертации рублей в доллары
-double rubleToDollar(double ruble, double rate) {
+double rubleToDollar(double ruble, double rate) {   // первый коммит в zimin
     return ruble / rate;
 }
 
