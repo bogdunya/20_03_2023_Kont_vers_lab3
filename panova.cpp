@@ -25,7 +25,7 @@ int main() {
 
     bubbleSort(arr, n);
 
-    cout << "Sorted array:" << endl;
+    cout << "Sorted array:" << endl; // second commit in panova
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
