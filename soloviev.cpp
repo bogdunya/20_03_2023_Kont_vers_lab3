@@ -25,7 +25,7 @@ int main() {
             max = arr[i];
         }
     }
-
+    //вывод максимального и минимального элемента
     cout << "The smallest element is: " << min << endl;
     cout << "The largest element is: " << max << endl;
 
