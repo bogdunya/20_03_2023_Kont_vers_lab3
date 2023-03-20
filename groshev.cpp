@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     double a, b, c, x1, x2, discriminant;
-
+    //cout function get a, b, c coefficients
     cout << "Enter coefficients a, b and c: ";
     cin >> a >> b >> c;
 
