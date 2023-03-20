@@ -21,6 +21,7 @@ double calculate(double a, double b, char op) {
         default:
             return 0;
     }
+	//second commit in main
 }
 
 int main() {
