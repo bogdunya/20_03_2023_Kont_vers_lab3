@@ -2,7 +2,7 @@
 #include <cmath>
 
 using namespace std;
-
+/*Check 1st commit to my own branch Nikolaenko*/
 int main() {
     double a, b, c, discriminant, root1, root2;
     cout << "Enter coefficients a, b and c: ";
