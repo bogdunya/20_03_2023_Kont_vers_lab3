@@ -19,5 +19,5 @@ int main() {
   else {
     cout << n << " is not a prime number" << endl;
   }
-  return 0;
+  return 0; //second comm eliseeva
 }
