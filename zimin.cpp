@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> // первый коммит в мэин
 using namespace std;
 
 // Функция для конвертации рублей в доллары
@@ -11,7 +11,7 @@ double dollarToRuble(double dollar, double rate) {
     return dollar * rate;
 }
 
-int main() {
+int main() {    // второй коммит в мэин
     double rate, amount;
     int choice;
 
