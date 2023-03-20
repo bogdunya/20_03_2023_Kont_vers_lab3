@@ -21,7 +21,7 @@ int main()
         } else {
             new_num = (char)('A' + digit - 10) + new_num; // first commit in sedov
         }
-        num /= new_base;
+        num /= new_base; // second commit in sedov
     }
     cout << "Число " << num << " в " << base << "-й системе счисления равно " << new_num << " в " << new_base << "-й системе счисления." << endl;
 
