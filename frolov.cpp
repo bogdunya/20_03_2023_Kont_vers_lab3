@@ -7,7 +7,7 @@ int main() {
   cout << "Enter first number, operator, second number: ";
   cin >> num1 >> op >> num2;
 
-  switch(op) {
+  switch(op) { //Комментарий 2
     case '+':
       result = num1 + num2;
       break;
