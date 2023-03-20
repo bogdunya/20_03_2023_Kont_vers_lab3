@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-
+/*Check 1st commit to main Nikolaenko*/
 using namespace std;
 
 int main() {
