@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  double num1, num2, result;
+  double num1, num2, result; //Комментарий 1
   char op;
   cout << "Enter first number, operator, second number: ";
   cin >> num1 >> op >> num2;
@@ -25,7 +25,7 @@ int main() {
       result = num1 / num2;
       break;
     default:
-      cout << "Error: invalid operator" << endl;
+      cout << "Error: invalid operator" << endl; //Это ошибка invalid operator
       return 1;
   }
   
