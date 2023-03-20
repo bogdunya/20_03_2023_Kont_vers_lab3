@@ -2,12 +2,12 @@
 using namespace std;
 
 int main() {
-  double num1, num2, result;
+  double num1, num2, result; //Комментарий 1
   char op;
   cout << "Enter first number, operator, second number: ";
   cin >> num1 >> op >> num2;
 
-  switch(op) {
+  switch(op) { //Комментарий 2
     case '+':
       result = num1 + num2;
       break;
@@ -25,10 +25,10 @@ int main() {
       result = num1 / num2;
       break;
     default:
-      cout << "Error: invalid operator" << endl;
+      cout << "Error: invalid operator" << endl; //Это ошибка invalid operator
       return 1;
   }
   
   cout << num1 << " " << op << " " << num2 << " = " << result << endl;
-  return 0;
+  return 0;//Возвращаемое значение: return 0
 }

@@ -1,13 +1,13 @@
 #include <iostream>
 #include <cmath>
-
+/*Check 1st commit to main Nikolaenko*/
 using namespace std;
-
+/*Check 1st commit to my own branch Nikolaenko*/
 int main() {
     double a, b, c, discriminant, root1, root2;
     cout << "Enter coefficients a, b and c: ";
     cin >> a >> b >> c;
-
+/*Check 2nd commit to main Nikolaenko*/
     discriminant = b * b - 4 * a * c;
 
     if (discriminant > 0) {
@@ -25,6 +25,6 @@ int main() {
         cout << "Root 1 = (-" << b << " + i" << sqrt(-discriminant) << ") / " << 2*a << endl;
         cout << "Root 2 = (-" << b << " - i" << sqrt(-discriminant) << ") / " << 2*a << endl;
     }
-
+/*Check 2nd commit to my own branch Nikolaenko*/
     return 0;
 }
