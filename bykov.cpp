@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+  // first main commit
   double num1, num2;
   char op;
   cout << "Enter first number, operator, second number: ";
@@ -15,6 +16,7 @@ int main() {
       cout << num1 << " - " << num2 << " = " << num1 - num2 << endl;
       break;
     case '*':
+    //second main commit
       cout << num1 << " * " << num2 << " = " << num1 * num2 << endl;
       break;
     case '/':

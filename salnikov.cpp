@@ -33,4 +33,7 @@ int main() { //second commit to main
     }
 
     return 0;
-}
+} //first commit in salnikov
+
+
+//second commit in salnikov
