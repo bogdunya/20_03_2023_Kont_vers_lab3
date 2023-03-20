@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int arr[100];
+    int arr[100];//массив
     int n, min, max;
     cout << "Enter the size of the array: ";
     cin >> n;
@@ -25,7 +25,7 @@ int main() {
             max = arr[i];
         }
     }
-
+    //вывод максимального и минимального элемента
     cout << "The smallest element is: " << min << endl;
     cout << "The largest element is: " << max << endl;
 
