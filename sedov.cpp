@@ -5,10 +5,10 @@ using namespace std;
 
 int main()
 {
-    int num, base, new_base;
+    int num, base, new_base; // first commit in main
     cout << "Введите число: ";
     cin >> num;
-    cout << "Введите систему счисления числа: ";
+    cout << "Введите систему счисления числа: "; // second commit in main
     cin >> base;
     cout << "Введите новую систему счисления: ";
     cin >> new_base;
