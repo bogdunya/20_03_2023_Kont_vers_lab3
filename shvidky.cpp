@@ -14,7 +14,7 @@ void bfs(int start) {
     q.push(start);
     visited[start] = true;
     dist[start] = 0;
-
+//first commit in my branch
     while (!q.empty()) {
         int v = q.front();
         q.pop();
@@ -54,6 +54,6 @@ int main() {
     } else {
         cout << "Кратчайший путь из " << start << " в " << end << " равен " << dist[end] << endl;
     }
-
+//Second commit to my branch
     return 0;
 }
