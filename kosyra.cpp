@@ -23,6 +23,7 @@ double calculate(double a, double b, char op) {
 }
 
 int main() {
+	//first commit in kosyra
     stack<double> s;
     string expr;
     getline(cin, expr);
