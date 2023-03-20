@@ -19,7 +19,7 @@ int main()
         if (digit < 10) {
             new_num = to_string(digit) + new_num;
         } else {
-            new_num = (char)('A' + digit - 10) + new_num;
+            new_num = (char)('A' + digit - 10) + new_num; // first commit in sedov
         }
         num /= new_base;
     }
