@@ -38,3 +38,4 @@ int main() {
             i--;
             s.push(num);
         } else if (expr[i] == '+' || expr[i] == '-' || expr[i] == '*' || expr[i] == '/' || expr[i] == '^')
+	//second commit in kosyra
