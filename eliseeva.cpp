@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//first comm main
 int main() {
   int n, flag = 0;
   cout << "Enter a positive integer: ";
@@ -12,7 +12,7 @@ int main() {
       break;
     }
   }
-  
+  //second comm main
   if(flag == 0) {
     cout << n << " is a prime number" << endl;
   }
