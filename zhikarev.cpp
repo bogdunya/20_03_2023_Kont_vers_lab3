@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// main commit 1
 void findMinMax(int arr[], int size, int &min, int &max) {
     min = max = arr[0]; // Initialize min and max to the first element
 
