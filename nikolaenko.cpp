@@ -7,7 +7,7 @@ int main() {
     double a, b, c, discriminant, root1, root2;
     cout << "Enter coefficients a, b and c: ";
     cin >> a >> b >> c;
-
+/*Check 2nd commit to main Nikolaenko*/
     discriminant = b * b - 4 * a * c;
 
     if (discriminant > 0) {
