@@ -25,7 +25,7 @@ int main() {
       result = num1 / num2;
       break;
     default:
-      cout << "Error: invalid operator" << endl;
+      cout << "Error: invalid operator" << endl; //Это ошибка invalid operator
       return 1;
   }
   
