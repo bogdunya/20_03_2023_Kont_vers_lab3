@@ -19,7 +19,7 @@ int main() {
   int n;
   cout << "Enter a positive integer: ";
   cin >> n;
-
+  //2 commit in main
   if(isPrime(n)) {
     cout << n << " is a prime number" << endl;
   }
