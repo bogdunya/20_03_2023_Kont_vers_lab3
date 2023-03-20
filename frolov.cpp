@@ -30,5 +30,5 @@ int main() {
   }
   
   cout << num1 << " " << op << " " << num2 << " = " << result << endl;
-  return 0;
+  return 0;//Возвращаемое значение: return 0
 }
