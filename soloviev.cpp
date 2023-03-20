@@ -17,8 +17,7 @@ int main() {
     max = arr[0];
 
     // сравниваем каждый элемент массива с текущим min и max
-    for (int i = 1; i < n; i++) {
-        if (arr[i] < min) {
+        if (arr[i] < min) {//проход по всем элементам
             min = arr[i];
         }
         if (arr[i] > max) {
