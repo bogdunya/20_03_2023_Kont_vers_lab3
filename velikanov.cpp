@@ -15,6 +15,7 @@ int binarySearch(int arr[], int low, int high, int x) {
         }
     }
     return -1;
+    // Velikanov commit 2
 }
 
 int main() {
