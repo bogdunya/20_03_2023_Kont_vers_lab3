@@ -10,7 +10,7 @@ int main() {
     cin >> a >> b >> c;
 
     discriminant = b * b - 4 * a * c;
-
+    //if discriminant > 0 -  calculate x1, x2
     if (discriminant > 0) {
         x1 = (-b + sqrt(discriminant)) / (2 * a);
         x2 = (-b - sqrt(discriminant)) / (2 * a);
