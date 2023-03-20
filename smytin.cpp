@@ -30,7 +30,7 @@ string longest_common_substring(string str1, string str2) {
     if (max_length == 0) {
         return "";
     } else {
-        return str1.substr(end_pos - max_length, max_length);
+        return str1.substr(end_pos - max_length, max_length); // Second commit to branch
     }
 }
 
