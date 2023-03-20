@@ -25,6 +25,7 @@ double calculate(double a, double b, char op) {
 }
 
 int main() {
+	//first commit in kosyra
     stack<double> s;
     string expr;
     getline(cin, expr);
@@ -39,3 +40,4 @@ int main() {
             i--;
             s.push(num);
         } else if (expr[i] == '+' || expr[i] == '-' || expr[i] == '*' || expr[i] == '/' || expr[i] == '^')
+	//second commit in kosyra
