@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 
+// First commit in main
+
 using namespace std;
 
 double f(double x) // Функция для вычисления значения уравнения
@@ -20,6 +22,8 @@ int main()
     double x0 = 1; // Начальное приближение для корня
     double epsilon = 0.0001; // Точность решения
     double x1;
+	
+	// Second commit in main
 
     do
     {

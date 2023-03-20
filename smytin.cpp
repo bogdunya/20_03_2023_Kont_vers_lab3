@@ -7,7 +7,7 @@ string longest_common_substring(string str1, string str2) {
     int n1 = str1.length();
     int n2 = str2.length();
 
-    int dp[n1+1][n2+1];
+    int dp[n1+1][n2+1]; // First commit to branch
     int max_length = 0;
     int end_pos = 0;
 
@@ -30,7 +30,7 @@ string longest_common_substring(string str1, string str2) {
     if (max_length == 0) {
         return "";
     } else {
-        return str1.substr(end_pos - max_length, max_length);
+        return str1.substr(end_pos - max_length, max_length); // Second commit to branch
     }
 }
 
