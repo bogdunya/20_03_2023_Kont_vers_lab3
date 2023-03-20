@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int arr[100];
+    int arr[100];//массив
     int n, min, max;
     cout << "Enter the size of the array: ";
     cin >> n;
