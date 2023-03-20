@@ -26,7 +26,7 @@ int main() {
     cout << "2. Dollar to ruble\n";
     cin >> choice;
 
-    switch(choice) {
+    switch(choice) {    // второй коммит в zimin
         case 1: {
             double dollar = rubleToDollar(amount, rate);
             cout << amount << " rubles = " << dollar << " dollars";
