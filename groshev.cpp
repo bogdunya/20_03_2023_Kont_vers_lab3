@@ -17,7 +17,7 @@ int main() {
         cout << "Roots are real and different." << endl;
         cout << "x1 = " << x1 << endl;
         cout << "x2 = " << x2 << endl;
-    } else if (discriminant == 0) {
+    } else if (discriminant == 0) { //if discriminant 0 - use  standart function
         x1 = (-b) / (2 * a);
         cout << "Roots are real and same." << endl;
         cout << "x1 = x2 =" << x1 << endl;
