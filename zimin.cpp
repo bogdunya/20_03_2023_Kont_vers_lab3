@@ -11,7 +11,7 @@ double dollarToRuble(double dollar, double rate) {
     return dollar * rate;
 }
 
-int main() {
+int main() {    // второй коммит в мэин
     double rate, amount;
     int choice;
 
