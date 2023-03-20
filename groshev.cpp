@@ -10,7 +10,7 @@ int main() {
     cin >> a >> b >> c;
 
     discriminant = b * b - 4 * a * c;
-
+    //if discriminant > 0 -  calculate x1, x2
     if (discriminant > 0) {
         x1 = (-b + sqrt(discriminant)) / (2 * a);
         x2 = (-b - sqrt(discriminant)) / (2 * a);
@@ -21,7 +21,7 @@ int main() {
         x1 = (-b) / (2 * a);
         cout << "Roots are real and same." << endl;
         cout << "x1 = x2 =" << x1 << endl;
-    } else {
+    } else {    //Complex different numbers
         cout << "Roots are complex and different." << endl;
         cout << "x1 = " << -b / (2 * a) << "+" << sqrt(-discriminant) / (2 * a) << "i" << endl;
         cout << "x2 = " << -b / (2 * a) << "-" << sqrt(-discriminant) / (2 * a) << "i" << endl;
